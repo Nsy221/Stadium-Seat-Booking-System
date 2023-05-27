@@ -4,10 +4,6 @@ package stadiumseatbooking;
  *
  * @author Nassya
  */
-import java.util.ArrayList;
-import java.util.List;
-
-
 
 public class SeatSelection {
     private SeatType[] selectedSeats;
@@ -84,9 +80,7 @@ public class SeatSelection {
         return numOfSeats;
     }
 
-//    public double getTotalPrice(){
-//        return totalPrice;
-//    }    
+
     
     public void setSelectedSeats(SeatType[] selectedSeats) {
         this.selectedSeats = selectedSeats;

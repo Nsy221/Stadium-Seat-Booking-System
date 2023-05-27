@@ -14,6 +14,11 @@ public class Ticket {
         this.eventName = eventName;
     }
 
+    
+    public void display(){
+
+    }
+    
     public int getTicketNumber() {
         return ticketNumber;
     }
@@ -35,6 +40,6 @@ public class Ticket {
     
     @Override
     public String toString() {
-        return "Ticket Number: " + getTicketNumber() + ", Event Name: " + getEventName();
+        return "  Ticket Number: " + getTicketNumber() + "\n" +"          Event Name: " + getEventName();
     }
 }

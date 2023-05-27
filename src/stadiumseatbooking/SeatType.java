@@ -5,27 +5,12 @@ package stadiumseatbooking;
  *
  * @author Nassya
  */
-public class SeatType {
+public class SeatType extends SeatSelection {
 
     static SeatType EXECUTIVE;
-
-//    enum SeatType {
-//        EXECUTIVE(100.0),
-//        PREMIUM(75.0),
-//        CLUB(50.0);
-//
-//        private double price;
-//
-//        SeatType(double price) {
-//            this.price = price;
-//        }
-//
-//        public double getPrice() {
-//            return price;
-//        }
-//    }
     static Object PREMIUM;
     static Object CLUB;
+    
 
 
 

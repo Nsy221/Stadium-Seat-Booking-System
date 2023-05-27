@@ -21,6 +21,7 @@ public class Booking {
     public void confirmBooking() {
         System.out.println(" ");
         System.out.println("**********Booking confirmed!**********");
+        System.out.println(" ");
         System.out.println("Customer: " + customer.toString());
         System.out.println("Ticket: " + ticket.toString());
         System.out.println("Seat Selection: " + seatSelection.toString());

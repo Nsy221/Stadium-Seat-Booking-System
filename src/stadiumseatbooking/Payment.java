@@ -9,6 +9,7 @@ public class Payment {
     private double amount;
     public double ticketPrice;
 
+
     public Payment(double amount) {
         this.amount = amount;
     }
@@ -25,7 +26,7 @@ public class Payment {
     
     @Override
     public String toString() {
-        return "Amount: $" + getAmount();
+        return "Amount: RM" + getAmount();
     }
 
 }
