@@ -8,7 +8,6 @@ package stadiumseatbooking;
 public class Payment {
     private double amount;
     public double ticketPrice;
-    // Add other payment attributes as needed
 
     public Payment(double amount) {
         this.amount = amount;

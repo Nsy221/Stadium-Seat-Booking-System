@@ -26,36 +26,12 @@ public class StadiumSeatBooking {
         String eventName = scanner.nextLine();
         Ticket ticket = new Ticket(ticketNumber, eventName);
 
-//        SeatSelection seatSelection = new SeatSelection();
-//        for (int j = 0; j < ticketNumber; j++) {
-//            System.out.print("Enter seat type: ");
-//            String seatTypeInput = scanner.nextLine();
-//            SeatType seat = new SeatType(seatTypeInput);
-//            seatSelection.addSeat(seat);
-//        }
-//        SeatSelection seatSelection = new SeatSelection();
-//
-////        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Enter the number of seats: ");
-//        int numOfSeats = scanner.nextInt();
-//
-//        for (int i = 0; i < numOfSeats; i++) {
-//            System.out.print("Enter the seat type (EXECUTIVE, PREMIUM, CLUB) for seat " + (i + 1) + ": ");
-//            String seatTypeInput = scanner.next();
-//           // SeatType seatType = SeatType.valueOf(seatTypeInput.toUpperCase());
-//            //seatSelection.addSeat(seatType);
-//        }
-//
-//        double totalPrice = seatSelection.calculateTotalPrice();
-//        System.out.println("Total Price: $" + totalPrice);
-//
-//       // scanner.close();
         SeatSelection seatSelection = new SeatSelection();
 
       
         System.out.print("Enter the number of seats: ");
         int numOfSeats = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); 
 
         for (int i = 0; i < numOfSeats; i++) {
             System.out.print("Enter the seat type (EXECUTIVE, PREMIUM, CLUB) for seat " + (i + 1) + ": ");
@@ -70,7 +46,7 @@ public class StadiumSeatBooking {
                 seatType = (SeatType) SeatType.CLUB;
             } else {
                 System.out.println("Invalid seat type entered.");
-                i--; // Repeat the iteration for valid input
+                i--; 
                 continue;
             }
 
@@ -80,7 +56,7 @@ public class StadiumSeatBooking {
         double totalPrice = seatSelection.calculateTotalPrice();
         System.out.println("Total Price: $" + totalPrice);
 
-       // scanner.close();
+   
 
         System.out.print("Enter payment amount: ");
         double paymentAmount = scanner.nextDouble();

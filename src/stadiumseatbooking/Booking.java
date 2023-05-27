@@ -3,7 +3,7 @@ package stadiumseatbooking;
 
 /**
  *
- * @author Nassya Punya
+ * @author Nassya
  */
 public class Booking {
     private Customer customer;

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package stadiumseatbooking;
 
 /**
@@ -11,8 +8,7 @@ package stadiumseatbooking;
 public class Customer {
     private String name;
     private String email;
-    // Add other customer attributes as needed
-
+    
     public Customer(String name, String email) {
         this.name = name;
         this.email = email;
